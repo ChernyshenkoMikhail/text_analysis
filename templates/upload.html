@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Upload File</title>
+</head>
+<body>
+    <h1>Загрузите пожалуйста ваш файл (только в формате .txt)</h1>
+    <form method="post" enctype="multipart/form-data" action="/analyze">
+        <input type="file" name="file" accept=".txt">
+        <input type="submit" value="Загрузить выбранный файл">
+    </form>
+</body>
+</html>
